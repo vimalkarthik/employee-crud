@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f9;
+  color: #222;
+}
+
+.formContainer {
+  max-width: 420px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.formContainer h1,
+.regTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formWrapper {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formWrapper label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.formWrapper input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.formContainer button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.formContainer button[type='submit']:hover {
+  background: #1d4ed8;
+}
+
+.loginCt {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.errorMsg {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.logout {
+  text-align: right;
+  padding: 16px 40px 0 0;
+}
+
+.textCenter {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.searchField {
+  padding: 10px;
+  width: 260px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+#clearBtn {
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tableContainer {
+  max-width: 900px;
+  margin: 0 auto 60px;
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.tableTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn.Createbtn {
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dataTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dataTable th,
+.dataTable td {
+  padding: 10px;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 14px;
+}
+
+.dataTable thead {
+  background: #f3f4f6;
+}
+
+.deleteBtn {
+  background: none;
+  border: none;
+  color: #dc2626;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+}
+
+.deleteBtn:hover {
+  text-decoration: underline;
+}
